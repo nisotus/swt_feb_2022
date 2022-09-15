@@ -1,3 +1,0 @@
-# Python is ....
-# It is a high level programming languange
-# This is created by dunni.
