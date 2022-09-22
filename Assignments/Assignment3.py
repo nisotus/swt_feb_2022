@@ -12,8 +12,6 @@
 alphabets = 'abcdefghijklmnopqrstuvwxyz'
 print(alphabets)
 
-names = []
-
 fst_name_index1 = alphabets.find('t')
 fst_name_index2 = alphabets.find('o')
 fst_name_index3 = alphabets.find('m')
