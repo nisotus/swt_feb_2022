@@ -37,7 +37,7 @@ print(format(firstname))
 # sum = x + y
 # print(sum)
 
-# # We have two variables "firstnmae" and "lastname", let's say we want to print the full name on the console
+# # We have two variables "firstname" and "lastname", let's say we want to print the full name on the console
 # # How do we do that?
 
 # # We can do it like below:
@@ -49,7 +49,7 @@ print(format(firstname))
 # print(fullname)
 
 # # Using concatenation is OK, but there is a better approach to do this in Python
-# # We can use Formatted Strings. Formatted strings are expressions gets evalusted at run-time
+# # We can use Formatted Strings. Formatted strings are expressions gets evaluated at run-time
 
 # fullname = f"{first} {last}"
 # print(fullname)
