@@ -1,4 +1,4 @@
-# SIMPLE CALCULATOR
+# SIMPLE CALCULATOR USING IF, ELIF and ELSE
 # Write a Python program that can perform addition, subtraction, multiplication and division based on two inputs from the user
 # The program should ask the user which of the four arithmetic operations below the user wants to perform:
 # addition
