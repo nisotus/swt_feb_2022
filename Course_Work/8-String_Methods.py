@@ -39,7 +39,7 @@ print(my_people.find("holy"))
 my_people = "All my people are pro in playing soccer"
 print(my_people.replace("pro", "amateur"))
 
-# Checking the existence of a chatracter or sequence of characters in a string
+# Checking the existence of a character or sequence of characters in a string
 fun_things = "Reading comic books and swimming"
 print("comical" in fun_things)
 

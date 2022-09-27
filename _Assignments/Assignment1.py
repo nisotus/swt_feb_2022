@@ -22,3 +22,25 @@ print(10 ** 3)  # exponent - 10 to the power of 3               1000
 
 # What will be printed to the terminal?
 print(bool("False"))                                          #  True
+
+
+# SOLUTION
+#fruit = "Apple"
+#print(fruit[1:-1])
+
+# what is the result of the expression?
+#10 % 3
+#Ans--3.33333
+
+#print(10 + 3)
+#13
+
+#print(10-3)
+
+#print(10 / 3)
+
+#print(10 // 3)
+
+#print(10 % 3)
+
+print(bool(False))
