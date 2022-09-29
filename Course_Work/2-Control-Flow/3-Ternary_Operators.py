@@ -26,3 +26,6 @@ age = int(input("Enter student age: "))
 # What we have here is called "Ternary Operator"
 message = "Eligible" if age >= 18 else "Not Eligible"
 print(message)
+
+# (True Path) (Condition) (False Path)
+# Any additional statements
