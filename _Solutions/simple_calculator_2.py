@@ -15,17 +15,23 @@ operator = input("Enter either +, -, * or /: ")
 n1 = float(input("Enter first number: "))
 n2 = float(input("Enter second number: "))
 
-if operator == "+":
-    print(n1, operator, n2, "=", n1 + n2)
+# if operator == "+":
+#     print(n1, operator, n2, "=", n1 + n2)
 
-elif operator == "-":
-    print(n1, operator, n2, "=", n1 - n2)
+# elif operator == "-":
+#     print(n1, operator, n2, "=", n1 - n2)
 
-elif operator == "*":
-    print(n1, operator, n2, "=", n1 * n2)
+# elif operator == "*":
+#     print(n1, operator, n2, "=", n1 * n2)
 
-elif operator == "/":
-    print(n1, operator, n2, "=", n1 / n2)
+# elif operator == "/":
+#     print(n1, operator, n2, "=", n1 / n2)
 
-else:
-    print("Invalid Operator")
+# else:
+#     print("Invalid Operator")
+
+(print(n1, operator, n2, "=", n1 + n2) if operator == "+" else 
+print(n1, operator, n2, "=", n1 - n2) if operator == "-" else 
+print(n1, operator, n2, "=", n1 * n2) if operator == "*" else 
+print(n1, operator, n2, "=", n1 / n2) if operator == "/" else 
+print("Invalid Operator"))
