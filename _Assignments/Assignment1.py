@@ -21,5 +21,31 @@ print(10 % 3)  # division to get only the remainder
 print(10 ** 3)  # exponent - 10 to the power of 3            
 
 # What will be printed to the terminal?
+<<<<<<< HEAD:Assignment1.py
 print(bool("False"))                                          
 
+=======
+print(bool("False"))                                          #  True
+
+
+# SOLUTION
+#fruit = "Apple"
+#print(fruit[1:-1])
+
+# what is the result of the expression?
+#10 % 3
+#Ans--3.33333
+
+#print(10 + 3)
+#13
+
+#print(10-3)
+
+#print(10 / 3)
+
+#print(10 // 3)
+
+#print(10 % 3)
+
+print(bool(False))
+>>>>>>> 60a83605d603790988729c226e761abfab22ce59:_Assignments/Assignment1.py
