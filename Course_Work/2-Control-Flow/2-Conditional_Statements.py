@@ -104,9 +104,11 @@
 
 score = input("Enter Student Score: ")
 
-if((score.isdigit())):
+#if score.isdigit():
+if type(score) == str:
+    print("score is string\nattempting conversion")
 
-    score = int(score)
+    score = int(score)              # will still cause an error if the conversion is not successful
     if score >= 0 and score < 40:
         print("Student Grade is F")
     elif score >= 40 and score < 50:
