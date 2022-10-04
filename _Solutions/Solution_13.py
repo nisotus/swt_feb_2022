@@ -1,5 +1,5 @@
 # Write a Python program that will take as input a value in celcius
-# Convert the value to Farenheit
+# Convert the value to Fahrenheit
 # Print the result in a very intuitive manner to the terminal
 
 value_in_celcius = float(input("Enter value in degrees Celcius: "))

@@ -39,6 +39,7 @@ level = input("""***Enter the LEVEL for your car wash today:
               *** Normal
               *** Basic
               *** Gold
+              *** Platinum
               *** : """)
 car_size = input("""Enter the SIZE of your car:
                  *** Small
