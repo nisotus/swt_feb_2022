@@ -2,10 +2,10 @@
 
 # Below is an example
 
-# temperature = 35
-# if temperature > 30:
-#     print("It is warm")
-#     print("Drink some water")
+temperature = 35
+if temperature > 30:
+     print("It is warm")
+     print("Drink some water")
 
 # # This will be executed where our condition "if temperature > 30" is True or False
 # print("Done")
@@ -24,16 +24,16 @@
 
 # You can also have "else" statement to be execute if none of the "ifs" and "elifs" are True
 
-# temperature = 15
-# if temperature > 30:
-#     print("It is warm")
-#     print("Drink some water")
-# elif temperature > 20:
-#     print("It's nice weather")
-# else:
-#     print("its Cold")
+temperature = 15
+if temperature > 30:
+    print("It is warm")
+    print("Drink some water")
+elif temperature > 20:
+    print("It's nice weather")
+else:
+    print("its Cold")
 
-# print("Done")
+print("Done")
 
 
 # Grades from 0 to 100
@@ -60,6 +60,20 @@
 
 # Using "elifs"
 
+<<<<<<< HEAD
+#score = float(input("Enter Student Score: "))
+
+#if score < 40:
+ #   print("Student Grade is F")
+#elif score >= 40 and score < 50:
+   # print("Student Grade is D")
+#elif score >= 50 and score < 65:
+ #   print("Student Grade is C")
+#elif score >= 65 and score < 75:
+ #   print("Student Grade is B")
+#elif score >= 75 and score <= 100:
+ #   print("Student Grade is A")
+=======
 # try:
 #     score = float(input("Enter Student Score: "))
 #     if score >= 0 and score < 40:
@@ -104,7 +118,8 @@
 
 score = input("Enter Student Score: ")
 
-if int(score) != ValueError:
+if((score.isdigit())):
+
     score = int(score)
     if score >= 0 and score < 40:
         print("Student Grade is F")
@@ -119,3 +134,4 @@ if int(score) != ValueError:
   
 else:
      print("Invalid Score")
+>>>>>>> 898f8345bab33cb63081945f1a2206d21e849893
