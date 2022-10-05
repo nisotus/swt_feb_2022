@@ -11,3 +11,28 @@
 # size
 # payment amount
 
+
+
+
+
+
+
+customers_name = input("Enter your name: \n")
+wash_level = input("Enter the wash level you want to perform: \n")
+
+car_size = input("Enter the size of your car: \n")
+
+Normal = int(1000)
+Basic = int(2000)
+Gold = int(3000)
+Platinum = int(4000)
+
+small = int(10)
+medium = int(20)
+large = int(30)
+
+
+payment_amount = int(wash_level) * int(car_size)
+print(payment_amount)
+
+
