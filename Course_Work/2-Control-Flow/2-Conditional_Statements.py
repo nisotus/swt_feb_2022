@@ -118,7 +118,8 @@ print("Done")
 
 score = input("Enter Student Score: ")
 
-if int(score) != ValueError:
+if((score.isdigit())):
+
     score = int(score)
     if score >= 0 and score < 40:
         print("Student Grade is F")
