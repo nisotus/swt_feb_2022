@@ -40,10 +40,10 @@
 
 
 # for number in range(3):
-#     print("Attempt", number + 1, number + 1)
+#      print("Attempt", number + 1, number + 1)
 
-# for number in range(3):
-#     print("Attempt", number + 1, (number + 1) * "." )
+for number in range(3):
+     print("Attempt", number + 1, (number + 1) * "." )
 
 
 # for number in range(1, 4):
@@ -52,5 +52,16 @@
 # for number in range(1, 10, 2):
 #     print("Attempt", number)
 
-for number in range(1, 10, 2):
-    print("Attempt", number, (number) * ".")
+# for number in range(1, 10, 2):
+#      print("Attempt", number, (number) * ".")
+
+
+#write a program that will display even no between 1 to 50.
+# so when you run this program, you should see 2,4,6,8,...
+# And after this I want you to print the message "We have x even numbers"
+
+for number in range(2, 52, 2):
+    print(number)
+    length = (len(range(2, 52, 2)))
+print("We have" , length , "even numbers")
+    
