@@ -8,5 +8,5 @@
 
 for firstname in ["Joe", "Vincent", "Joysy", "Muyiwa", "Jessica"]:
     for lastname in ["Uche", "Oke", "Enoo", "Oni", "Aiziotogbe"]:
-        # print(f"{firstname}, {lastname}")
-        print("{}{}".format(firstname, lastname))
+         print(f"{firstname}, {lastname}")
+       # print("{}{}".format(firstname, lastname))
