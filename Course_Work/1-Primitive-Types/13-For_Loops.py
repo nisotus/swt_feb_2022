@@ -42,8 +42,8 @@
 # for number in range(3):
 #      print("Attempt", number + 1, number + 1)
 
-for number in range(3):
-     print("Attempt", number + 1, (number + 1) * "." )
+# for number in range(3):
+#      print("Attempt", number + 1, (number + 1) * "." )
 
 
 # for number in range(1, 4):
@@ -60,8 +60,17 @@ for number in range(3):
 # so when you run this program, you should see 2,4,6,8,...
 # And after this I want you to print the message "We have x even numbers"
 
-for number in range(2, 52, 2):
-    print(number)
-    length = (len(range(2, 52, 2)))
-print("We have" , length , "even numbers")
+# for number in range(2, 52, 2):
+#     print(number)
+#     length = (len(range(2, 52, 2)))
+# print("We have" , length , "even numbers")
+
+count = 0          # to count the length of the numbers printed out.
+number = 0         # set the number to start from 0 and to count to 50
+while number <= 50:
+    print (number)
+    count = count + 1
+    number = number + 2
+    
+print(f"The number of even numbers is", count)
     
