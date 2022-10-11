@@ -23,9 +23,21 @@
 # print(f'Multiplication: {num1 * num2}'))
 
 
-student = True
-goodCredit = True
-highIncome = True
+#student = True
+#goodCredit = True
+#highIncome = True
 
+#print("Eligible") if ((not student) and (
+ #   goodCredit or highIncome)) else print("Not eligible")
+#>>>>>>> e2e8453547be4337d7d38338611342951988f933
+
+
+
+
+                 
+
+<<<<<<< HEAD
 print("Eligible") if ((not student) and (
     goodCredit or highIncome)) else print("Not eligible")
+=======
+>>>>>>> 59a7e3d ( modification)
