@@ -6,46 +6,46 @@
 
 # For all the number types we have standard arithmetic operations that we have in MATHS, that we can perform on them
 
-# addition
-x = 20
-y = 15
-value = x + y
-print(value)
+# # addition
+# x = 20
+# y = 15
+# value = x + y
+# print(value)
 
 
-# subtraction
-x = 20
-y = 15
-value = x - y
-print(value)
+# # subtraction
+# x = 20
+# y = 15
+# value = x - y
+# print(value)
 
 
-# division with remainder
-x = 5
-y = 2
-value = x / y
-print(value)
+# # division with remainder
+# x = 5
+# y = 2
+# value = x / y
+# print(value)
 
 
-# division without remainder
-x = 5
-y = 2
-value = x // y
-print(value)
+# # division without remainder
+# x = 5
+# y = 2
+# value = x // y
+# print(value)
 
 
-# multiplication
-x = 4
-y = 2
-value = x * y
-print(value)
+# # multiplication
+# x = 4
+# y = 2
+# value = x * y
+# print(value)
 
 
-# exponent
-x = 4
-y = 2
-value = x ** y
-print(value)
+# # exponent
+# x = 4
+# y = 2
+# value = x ** y
+# print(value)
 
 # modulus
 x = 4
