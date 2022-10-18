@@ -8,18 +8,14 @@
 #     print("Welcome Aboard")
 
 
-# print()
-# greet()
+# greet("Dunni", "Adesoba")
 
 
 # def greeting(name):
 #     print(f"Hi {name}")
 
 
-# greeting("Ade")
-
-
-# ***********************************
+# # greeting("Ade")
 
 
 # message = greeting("Ade")
@@ -27,18 +23,16 @@
 
 
 # # **** Writing to a file
-from pyparsing import oneOf
-
 
 def greeting(name):
     return f"Hi {name}"
 
 
-# message = greeting("Ade")
+message = greeting("Ade")
 
 
-# jagaban = open("vincent.txt", "w")
+my_file = open("dunni.pdf", "w")
 
-# jagaban.write(message)
+my_file.write(message)
 
 # print(greeting("Olu"))
