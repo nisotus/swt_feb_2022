@@ -32,10 +32,5 @@ medium = int(20)
 large = int(30)
 
 
-#Assignment 15
-
-
-payment_amount = int(wash_level) * int(car_size)
-print(payment_amount)
 
 
