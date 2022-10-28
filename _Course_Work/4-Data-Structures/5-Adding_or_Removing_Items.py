@@ -92,12 +92,12 @@
 # print(letters)
 
 #*************************
-letters = ["a", "b", "c", "b", "d" , "b"]
+# letters = ["a", "b", "c", "b", "d" , "b"]
 
-for i in letters:
-    letters.pop(-1)
+# for i in letters:
+#     letters.pop(-1)
 
-print(letters)
+# print(letters)
 
 # The difference bewteen the "del" statement and the "pop()" method
 # The "pop()" method will remove only one item by index

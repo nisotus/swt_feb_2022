@@ -5,4 +5,5 @@ for i in letters:
 
 print(letters)
 
-# Starting with the sample code above. Find a way to renmove all elements in the list by using a LOOP.
+# Starting with the sample code above. Find a way to renmove all elements in the list by using a LOOP and the pop() method.
+# Do not use any other approach, you have to use a LOOP in combination with the pop() method.
