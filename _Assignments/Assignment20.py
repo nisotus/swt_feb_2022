@@ -7,3 +7,20 @@
 # display a validation error: "Name can be a maximum of 50 characters"
 # otherwise if it's between 3 and 50 characters
 # display: "Name looks good!"
+
+
+
+from codecs import oem_decode
+from unicodedata import ucd_3_2_0
+
+
+hopping_cart = items = [
+    ("Clipper", 1),
+    ("Brush", 20),
+    ("Laptop", 2)
+    ("Pen", 150),
+    ("USB-Type-C", 51),
+    ("Jabra-Headset", 1000)
+]
+
+sort_ items

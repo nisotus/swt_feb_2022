@@ -3,3 +3,9 @@
 # prices = [10, 20, 30]
 
 # Use a function to write the same code
+
+#  cart = [10, 20 30]
+# total = 0
+# for cart in cart:
+    total = cart 
+    print(total)

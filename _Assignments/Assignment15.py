@@ -10,3 +10,12 @@
 # Print the conversion amount to the terminal
 
 # To get a live currency rate, you might need to use an API or any library that can help you to get live exchange rate online.
+
+
+
+
+
+
+x = range(100)
+for n in X
+    print(n)

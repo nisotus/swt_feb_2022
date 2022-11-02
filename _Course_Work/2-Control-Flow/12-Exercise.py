@@ -11,3 +11,9 @@ for number in range(1, 50):
         print(number)
 
 print(f"We have {count} even numbers")
+
+count = 0
+for number in range(1, 50):
+    if number & 3 == 0:
+        count += 1
+        print(number)
