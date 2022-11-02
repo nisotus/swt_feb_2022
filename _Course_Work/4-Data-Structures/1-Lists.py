@@ -16,7 +16,7 @@
 # Set
 {}
 
-# Dictionarie
+# Dictionary
 {}
 
 # Example list of strings
