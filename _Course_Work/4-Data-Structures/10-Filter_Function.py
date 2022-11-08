@@ -8,19 +8,19 @@
 # For each item, we get the price.
 # If the price matches our criteria, we add it to the empty list
 
-items = [
-    ("Product1", 10),
-    ("Product2", 9),
-    ("Product3", 12)
-]
+# items = [
+#     ("Product1", 10),
+#     ("Product2", 9),
+#     ("Product3", 12)
+# ]
 
-price = []
+# price = []
 
-for item in items:
-    if item >= 10:
-        price.append(item)
+# for item in items:
+#     if item >= 10:
+#         price.append(item)
 
-print(price)
+# print(price)
 
 # ***********************
 
@@ -30,11 +30,11 @@ print(price)
 # So if we apply the filter() function on each item of the iterable
 # If the item matches some criteria, it would return the match item
 
-# items = [
-#     ("Product1", 10),
-#     ("Product2", 9),
-#     ("Product3", 12)
-# ]
+items = [
+    ("Product1", 10),
+    ("Product2", 9),
+    ("Product3", 12)
+]
 
-# filtered = list(filter(lambda item:item[1] >= 10, items))
-# print(filtered)
+filtered = list(filter(lambda item:item[1] >= 10, items))
+print(filtered)
