@@ -1,1 +1,1 @@
-# I want you to give me 10 unique situations that you have to use a TUPLE in your progam implementation
+# I want you to give me 10 unique situations that you have to use a TUPLE in your program implementation
