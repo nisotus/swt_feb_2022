@@ -10,39 +10,39 @@
 #Code
 #Create a list
 
-# my_list = [1,2,3, "a", "b", "c", "dunni", True]
-# print(my_list)
+my_list = [1,2,3, "a", "b", "c", "dunni", True]
+print(my_list)
 
 # #To create a Tuple
 
-# my_tuple = (1,2,3,4,5,6,"a", "b", "c", "dunni", True)
-# print(my_tuple)
+my_tuple = (1,2,3,4,5,6,"a", "b", "c", "dunni", True)
+print(my_tuple)
 
-# or we create a tuple from a list
-# my_list = [1,2,3, "a", "b", "c", "dunni", True]
-# my_tuple = tuple(my_list)
-# print(my_tuple)
-
-
-# # To create an array
-
-# from array import array
-
-# my_list = [1, 2, 3, 4, 5, 6, 7]
-
-# my_array = array("i",[1, 2, 3, 4, 5, 6, 7])
-# print(my_array)
-# my_array.append(2)
-# print(my_array)
+#or we create a tuple from a list
+my_list = [1,2,3, "a", "b", "c", "dunni", True]
+my_tuple = tuple(my_list)
+print(my_tuple)
 
 
-# #To create a set
+# To create an array
 
-# #We can create set from my list
+from array import array
 
-# my_list = [1, 2, 3, 4, 5, 6, 7]
-# my_set = set(my_list)
-# print(my_set)
+my_list = [1, 2, 3, 4, 5, 6, 7]
+
+my_array = array("i",[1, 2, 3, 4, 5, 6, 7])
+print(my_array)
+my_array.append(2)
+print(my_array)
+
+
+#To create a set
+
+#We can create set from my list
+
+my_list = [1, 2, 3, 4, 5, 6, 7]
+my_set = set(my_list)
+print(my_set)
 
 #0r create a new list that has duplicate elements
 new_list = [1, 1, 2, 2, 2, 3, 4, 4, 4, 5]
