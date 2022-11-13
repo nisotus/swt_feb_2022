@@ -113,7 +113,7 @@
 # for i in my_dict:
 #     print(i)
     
-# Notice that only teh KEYS were printed
+# Notice that only the KEYS were printed
 
 # Now to print the VALUES, we need to access the VALUES using the KEY
 # my_dict = dict(x=1, y=2, z=3)
