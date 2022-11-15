@@ -1,0 +1,17 @@
+# names = ["jay", "tay", "bay"]
+
+# name_mul = []
+# for name in names:
+#     name_mul.append(name * 2)
+
+# print(name_mul)
+
+
+
+
+names = ["Joysy", "Rico", "Judith", "Mau", "Phil"]
+
+name_mul =[]
+for name in names:
+    name_mul.append(name * 2)
+print(name_mul)

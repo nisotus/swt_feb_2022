@@ -16,3 +16,5 @@ movies_list =["Aladdin", "Stuber", "Pets 2", "Toy Story 4", "The Lion King",
 
 movies = random.choice(movies_list)
 print(movies)
+
+
