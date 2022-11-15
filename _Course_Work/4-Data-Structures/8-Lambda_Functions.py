@@ -40,7 +40,7 @@ def sort_item(item):
 items.sort(key=lambda item:item[1])
 
 # Breaking it down
-# How many parameters do we have have in the function sort_item(item) ?
+# How many parameters do we have in the function sort_item(item) ?
 # Ony 1 parameter and the parameter is "item"
 # So that means that our (key=lambda parameters:expression) = (key=lambda item:item[1])
 

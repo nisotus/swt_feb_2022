@@ -1,0 +1,1 @@
+# Write a Python program that prints out the whole clandar month of a particular year to the terminal

@@ -16,3 +16,5 @@ shopping_cart = [
 # 4 Use the Map function to get the prices without putting in a list
 # 5 Use the Filter function to filter prices greater than or equal to 150
 # 6 Use the Filter function to filter prices less than or equal to 20
+# 7 Use LIST COMPREHENSION to filter prices less than or equal to 20
+# 8 Use LIST COMPREHENSION to get the list of proces into another list
