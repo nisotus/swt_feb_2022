@@ -1,4 +1,4 @@
-# Use LIST and SET COMPREHENSION to rewrite below code:
+# Use LIST COMPREHENSION to rewrite below code:
 
 vowels = ["a", "e", "i", "o", "u", ]
 for v in vowels:
