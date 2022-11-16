@@ -53,8 +53,7 @@
 # print(point["x"])
 
 # We can change the VALUE of KEY "x"
-
-# point["x"] = 10
+# point["x"] = 10 
 # print(point)
 
 # We can add a new key "p"
@@ -78,11 +77,11 @@
 # *** Solution 2
 # Using the "get()" method
 # If the KEY does not exist, by default it returns "None"
-# print(point.get("a"))
+#print(point.get("a"))
 
 # We can also pass a default value as a second argument to the "get()" function
 # Meaning if you don't have an item with the KEY "a", return "0" by default
-# print(point.get("a", 0))
+#print(point.get("a", 0))
 
 # *** Other methods you can use on DICTIONARIES
 
@@ -99,9 +98,9 @@
 
 # total = 0
 
-# # sum = sum(my_list)
+# sum = sum(my_list)
 # for i in my_list:
-#     total = total + i
+#    total = total + i
 
 # print(total)
 
@@ -124,9 +123,9 @@
 # Let us re-write the code for easier reading
 # my_dict = dict(x=1, y=2, z=3)
 
-my_dict = dict(x=1, y=2, z=3)
-for key in my_dict:
-    print(key, my_dict[key])
+# my_dict = dict(x=1, y=2, z=3)
+# for key in my_dict:
+#     print(key, my_dict[key])
     
 # ********************************************
 

@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "AzureDevOps",
+			"path": "../../../../new python class/swt_feb_2022/AzureDevOps"
+		}
+	],
+	"settings": {}
+}
