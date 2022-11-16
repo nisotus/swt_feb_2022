@@ -38,11 +38,17 @@
 #     print(key, my_dict[key])
     
 
-my_dict = dict(x=1, y= 2, z=3)
-print(my_dict)
+# my_dict = dict(x=1, y= 2, z=3)
+# print(my_dict)
 
-for x in my_dict.items():
-    print(x)
+# for x in my_dict.items():
+#     print(x)
     
     
 
+dict = {"a": 1, "b": 2, "c": 3, "d": 4}
+
+values = []
+
+for x,y in dict.item():
+    print(x, y*2)

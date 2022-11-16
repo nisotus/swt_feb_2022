@@ -78,12 +78,12 @@
 
 dict = {"a": 1, "b": 2, "c": 3, "d": 4}
 
-# values = {}
-# for x, y in dict.items():
-#     print(x, y*2)
+values = {}
+for x, y in dict.items():
+    print(x, y*2)
     
-values = {x: y * 2 for x, y in dict.items()}
-print(values)
+#values = {x: y * 2 for x, y in dict.items()}
+#print(values)
 
 # So instead of defining and empty dictionary "values = {}"
 # then looping over an iterable "range(5)"
@@ -100,8 +100,8 @@ print(values)
 # DICTIONARIES
 
 # Tuple example
-values = (x * 2 for x in range(5))
-print(values)
+#values = (x * 2 for x in range(5))
+#print(values)
 
 # We get the error - "<generator object <genexpr> at memory address>"
 
