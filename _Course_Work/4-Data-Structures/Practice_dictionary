@@ -1,0 +1,54 @@
+# point = dict (x=1, y= 2, z=3)
+# print(point)
+
+# print(point["x"])
+# print(point["y"])
+
+# point ["p"] =20
+# print(point)
+
+# point ["x"] = 10
+# print(point)
+
+# if "a" in point:
+#     print(point.get("a"))
+    
+# del point["x"]
+# print(point)
+
+# my_list = [1, 2, 3, 4]
+# total = 0
+
+# sum = sum(my_list)
+# for i in my_list:
+#     total = total + 1
+#     print(total)
+
+
+# my_dict = dict(x=1, y=2, z=3)
+# print(my_dict)
+
+# for i in my_dict:
+#     print(i, my_dict[i])
+    
+# my_dict = dict(x=1, Y = 2, z = 3)
+# print(my_dict)
+
+# for key in my_dict:
+#     print(key, my_dict[key])
+    
+
+# my_dict = dict(x=1, y= 2, z=3)
+# print(my_dict)
+
+# for x in my_dict.items():
+#     print(x)
+    
+    
+
+dict = {"a": 1, "b": 2, "c": 3, "d": 4}
+
+values = []
+
+for x,y in dict.item():
+    print(x, y*2)

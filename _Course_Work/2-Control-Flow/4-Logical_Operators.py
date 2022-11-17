@@ -82,18 +82,14 @@
 
 # So with these operators, you can model all kinds of real world scenarios
 
-high_income = 20000
-good_credit = 4
+# high_income = 20000
+# good_credit = 4
 
-income = float(input("Enter the income: "))
-credit_score = int(input("Enter the credit score: "))
-student = input("Enter 'Yes' if student and 'No' if not student: ")
+# income = float(input("Enter the income: "))
+# credit_score = int(input("Enter the credit score: "))
+# student = input("Enter 'Yes' if student and 'No' if not student: ")
 
-if (income > 20000 or credit_score >= 4 and credit_score <= 5) and student == "Yes": 
-    print("Eligible")
-else:
-    print("Not Eligible")
-
-
-
-
+# if (income > 20000 or credit_score >= 4 and credit_score <= 5) and student == "Yes": 
+#     print("Eligible")
+# else:
+#     print("Not Eligible")
