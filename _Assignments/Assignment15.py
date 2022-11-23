@@ -10,3 +10,22 @@
 # Print the conversion amount to the terminal
 
 # To get a live currency rate, you might need to use an API or any library that can help you to get live exchange rate online.
+
+
+import requests
+
+
+base_currency = input("Enter the base currency: ")
+new_currency = input("Enter the new currency: ")
+new_currency = "USD"
+
+start_date = "2022-11-15"
+end_date = "2022-11-16"
+
+
+url = "https://api.exchangerate.host/timeseries?base={0}&start_date={1}&end_date={2}&symbols={3}".format(base_currency, start_date, end_date, new_currency)
+    
+response = requests.get(url)
+data = response.json()
+print(data)
+   
