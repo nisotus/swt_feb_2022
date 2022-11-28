@@ -93,39 +93,39 @@
 
 # How do we LOOP over DICTIONARIES?
 
-# For example to LOOP over a LIST, we can do below: 
-# my_list = [1, 2, 3, 4]
+#For example to LOOP over a LIST, we can do below: 
+my_list = [1, 2, 3, 4]
 
-# total = 0
+total = 0
 
-# sum = sum(my_list)
-# for i in my_list:
-#    total = total + i
+sum = sum(my_list)
+for i in my_list:
+   total = total + i
 
-# print(total)
+print(total)
 
 # Let's try doing this for a DICTIONARY
 
-# my_dict = dict(x=1, y=2, z=3)
-# print(my_dict)
+my_dict = dict(x=1, y=2, z=3)
+print(my_dict)
 
-# for i in my_dict:
-#     print(i)
+for i in my_dict:
+    print(i)
     
 # Notice that only the KEYS were printed
 
 # Now to print the VALUES, we need to access the VALUES using the KEY
-# my_dict = dict(x=1, y=2, z=3)
+my_dict = dict(x=1, y=2, z=3)
 
-# for i in my_dict:
-#     print(i, my_dict[i])
+for i in my_dict:
+    print(i, my_dict[i])
     
-# Let us re-write the code for easier reading
-# my_dict = dict(x=1, y=2, z=3)
+#Let us re-write the code for easier reading
+my_dict = dict(x=1, y=2, z=3)
 
-# my_dict = dict(x=1, y=2, z=3)
-# for key in my_dict:
-#     print(key, my_dict[key])
+my_dict = dict(x=1, y=2, z=3)
+for key in my_dict:
+    print(key, my_dict[key])
     
 # ********************************************
 
@@ -133,16 +133,16 @@
 # There is another way to iterate over a dictionary
 # We can use teh items() method on the dictionary
 
-# my_dict = dict(x=1, y=2, z=3)
-# items = my_dict.items()
-# print(items)
+my_dict = dict(x=1, y=2, z=3)
+items = my_dict.items()
+print(items)
 
-# This will give us - dict_items([('x', 1), ('y', 2), ('z', 3)])
+#This will give us - dict_items([('x', 1), ('y', 2), ('z', 3)])
 
-# *** Using the items() method
-# my_dict = dict(x=1, y=2, z=3)
-# for x in my_dict.items():
-#     print(x)
+#Using the items() method
+my_dict = dict(x=1, y=2, z=3)
+for x in my_dict.items():
+    print(x)
 
 
 # When we use point.items(), in each iteration we will get a TUPLE

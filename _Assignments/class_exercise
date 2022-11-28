@@ -1,0 +1,45 @@
+
+
+###Using list comprehension to filter the prices, and to get the list of prices into another list.
+# shopping_cart = [
+#     ("Clipper", 1),
+#     ("Brush", 20),
+#     ("Laptop", 2),
+#     ("Pen", 150),
+#     ("USB-Type-C", 51),
+#     ("Jabra-Headset", 1000)
+# ]
+
+
+
+
+# prices = [item[1] for item in shopping_cart]
+# prices.sort()
+# print (prices)
+
+
+# filtered = [item for item in shopping_cart if item[1] >= 1]
+# print(filtered)
+
+
+
+####Zip function
+# list1 = [1, 2, 3]
+# list2 = [10, 20, 30]
+
+# print(list(zip(list1, list2)))
+
+
+
+####stack####
+
+browsing_session = []
+browsing_session.append(1)
+browsing_session.append(2)
+browsing_session.append(3)
+
+print(browsing_session)
+
+last = browsing_session.pop()
+print(last)
+print(browsing_session)

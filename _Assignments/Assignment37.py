@@ -21,20 +21,20 @@
 
 try:
     my_list = [1, 2, 3, 4, 5, 6, 7]
-    file = open("Assignmenr37.py")
+    file = open("Assignment37.py")
     for num in my_list:
         print(num * 10)
         if num % 0 == 0:
             print("Number divisible by 10")
         else:
             print("Number not divisible by 10")
-except (FileNotFoundError, NameError):
+    file.close()
+except (FileNotFoundError,ZeroDivisionError, NameError):
     print("You are not in your right directory path")
 
 finally:
-    file.closed() 
+    file.close() 
    
-
 
 
 
