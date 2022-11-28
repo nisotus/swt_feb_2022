@@ -73,3 +73,9 @@ print(queue)
 # By using the "not" operator
 if not queue: # This means we have an empty queue
     print("empty")
+    
+    
+    
+    
+    
+    

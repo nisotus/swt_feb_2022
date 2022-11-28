@@ -44,7 +44,7 @@ my_list = [1, 2, 3, 4, 5, 6, 7]
 my_set = set(my_list)
 print(my_set)
 
-#0r create a new list that has duplicate elements
+#0r create a new list that has no duplicate elements
 new_list = [1, 1, 2, 2, 2, 3, 4, 4, 4, 5]
 new_set = set(new_list)
 print(new_set)

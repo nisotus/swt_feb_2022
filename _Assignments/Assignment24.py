@@ -49,5 +49,5 @@ shopping_cart = [
 
 #8. List comprehension
 
-prices = [item[1] for item in shopping_cart]
-print(prices)
+# prices = [item[1] for item in shopping_cart]
+# print(prices)

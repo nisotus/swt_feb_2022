@@ -78,7 +78,7 @@ print(unique)
 
 # # print(first[0])
 
-# # So if you need to access items by index, you need to use a LIST
+# # So if you need to access items by index, you need to use a LIST, a TUPLE
 
 # # We can also check to see the existence of an item in a SET
 
