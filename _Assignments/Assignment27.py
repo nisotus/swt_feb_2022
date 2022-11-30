@@ -9,5 +9,5 @@ import calendar
 calendar_year = int(input("Enter the calendar year: "))
 month= int(input("Enter the calendar month: "))
 
-x = calendar.calendar_year(calendar_year, month)
+x = calendar.month(calendar_year, month)
 print(x)
