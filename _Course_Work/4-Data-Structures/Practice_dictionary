@@ -107,20 +107,119 @@
 # print(another.default_color)
 # another.draw()
 
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
     
-    @classmethod
-    def zero(cls):
-        return cls(0,0)    
-    def draw(self):
-        print(f"Point({self.x}, {self.y})")
+#     @classmethod
+#     def zero(cls):
+#         return cls(0,0)    
+#     def draw(self):
+#         print(f"Point({self.x}, {self.y})")
         
-point = Point(1,2)
-point.draw()
+# point = Point(1,2)
+# point.draw()
     
-#####Class Methods########################################################################################
-point = Point.zero()
-point.draw()
+# #####Class Methods########################################################################################
+# point = Point.zero()
+# point.draw()
+
+
+
+# class Point:
+    
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+        
+#     def __str__(self):
+#         return (f"point{self.x}, {self.y})")
+        
+#     def draw(self):
+#         print(f"Point({self.x}, {self.y})")
+        
+    
+        
+# point = Point(1, 2)
+# print(point)
+# print(str(point))
+
+# class Point:
+    
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+    
+#     def __eq__(self, second):
+#         return self.x == second.x and second.y == second.y
+    
+#     def __gt__(self, second):
+#         return self.x > second.x and self.y > second.y
+    
+    
+        
+    
+    
+        
+# first = Point(1,2)
+
+# second = Point(1,2)
+
+# print(first == second)
+# print(first > second)
+# print(first < second)
+
+
+
+# ##magic method for performing arithmetric between two object
+
+
+
+# class Point:
+    
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+        
+#     def __add__(self, second):
+#         return self.x + second.x, self.y + second.y
+        
+# first = Point(10,20)
+# second = Point(1, 2 )
+# print(first + second)
+
+
+
+###Containers########
+
+class TagCloud:
+    
+    def __init__(self):
+        self.tags = {}
+        
+    def add(self, tag): 
+        self.tags[tag]= self.tags.get(tag, 0) + 1
+    
+        
+        
+    
+
+        
+        
+        
+# cloud = TagCloud()   
+# len(cloud)
+# cloud["Python"]
+
+# cloud["python"] = 10
+
+# for tag in cloud:
+#     print(tag)
+        
+        
+cloud = TagCloud()
+cloud.add("python")
+cloud.add("python")
+cloud.add("python")
+print(cloud.tags)

@@ -70,62 +70,62 @@
  
 # *** How do we handle caps and lower case situations?       
 
-# class TagCloud:
-#     def __init__(self):
-#         self.tags = {}
+class TagCloud:
+    def __init__(self):
+        self.tags = {}
     
-#     def add(self, tag):
-#         self.tags[tag.lower()] = self.tags.get(tag.lower(), 0) + 1
+    def add(self, tag):
+        self.tags[tag.lower()] = self.tags.get(tag.lower(), 0) + 1
         
-# cloud = TagCloud()
-# cloud.add("Python")
-# cloud.add("pythoN")
-# cloud.add("pyThon")
-# print(cloud.tags)
+cloud = TagCloud()
+cloud.add("Python")
+cloud.add("pythoN")
+cloud.add("pyThon")
+print(cloud.tags)
 
 # *** let's take this to the next level = level 2
 
-# class TagCloud:
-#     def __init__(self):
-#         self.tags = {}
+class TagCloud:
+    def __init__(self):
+        self.tags = {}
     
-#     def add(self, tag):
-#         self.tags[tag.lower()] = self.tags.get(tag.lower(), 0) + 1
+    def add(self, tag):
+        self.tags[tag.lower()] = self.tags.get(tag.lower(), 0) + 1
     
-#     def __getitem__(self, tag):
-#         return self.tags.get(tag.lower(), 0)
+    def __getitem__(self, tag):
+        return self.tags.get(tag.lower(), 0)
             
-# cloud = TagCloud()
-# cloud["python"]
-# cloud.add("Python")
-# cloud.add("pyThon")
-# cloud.add("python")
-# # print(cloud.tags)
-# print(cloud["python"])
+cloud = TagCloud()
+cloud["python"]
+cloud.add("Python")
+cloud.add("pyThon")
+cloud.add("python")
+# print(cloud.tags)
+print(cloud["python"])
 
 # *** let's take this to the next level = level 3
 
-# class TagCloud:
-#     def __init__(self):
-#         self.tags = {}
+class TagCloud:
+    def __init__(self):
+        self.tags = {}
     
-#     def add(self, tag):
-#         self.tags[tag.lower()] = self.tags.get(tag.lower(), 0) + 1
+    def add(self, tag):
+        self.tags[tag.lower()] = self.tags.get(tag.lower(), 0) + 1
     
-#     def __getitem__(self, tag):
-#         return self.tags.get(tag.lower(), 0)
+    def __getitem__(self, tag):
+        return self.tags.get(tag.lower(), 0)
     
-#     def __setitem__(self, tag, count):
-#        self.tags[tag.lower()] = count
+    def __setitem__(self, tag, count):
+       self.tags[tag.lower()] = count
             
-# cloud = TagCloud()
-# cloud["python"] = 10
-# cloud["python"]
-# cloud.add("Python")
-# cloud.add("pyThon")
-# cloud.add("python")
-# print(cloud.tags)
-# print(cloud["python"])
+cloud = TagCloud()
+cloud["python"] = 10
+cloud["python"]
+cloud.add("Python")
+cloud.add("pyThon")
+cloud.add("python")
+print(cloud.tags)
+print(cloud["python"])
 
 # *** let's take this to the next level = level 4
 
