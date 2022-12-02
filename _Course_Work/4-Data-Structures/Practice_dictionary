@@ -46,9 +46,81 @@
     
     
 
-dict = {"a": 1, "b": 2, "c": 3, "d": 4}
+# dict = {"a": 1, "b": 2, "c": 3, "d": 4}
 
-values = []
+# values = []
 
-for x,y in dict.item():
-    print(x, y*2)
+# for x,y in dict.item():
+#     print(x, y*2)
+
+
+
+###Classes##################################################################################################################################################
+# class Point:
+#     def draw(self):
+#         print("draw")
+        
+#     def move(self):
+#          print("move")
+        
+        
+        
+# point = Point()
+
+# print(type(point))
+
+# print(isinstance(point, int))
+
+# print(isinstance(point, Point))
+
+
+
+# class Point:
+#     default_color = "red"
+    
+#     def __init__(self,x,y):
+#         self.x = x
+#         self.y = y
+        
+#     def draw(self):
+#         #print("draw")
+#         print(f"Point({self.x}, {self.y}")
+        
+# Point.default_color = "Yellow"
+# print(Point.default_color)
+        
+# point = Point(1, 2)
+# point.x
+# point.y
+# print(point.x)
+# print(point.y)
+
+
+# point.z = 20
+# point.draw()
+
+
+##Instance attribute
+
+# another = Point(3, 4)
+# another.draw()
+# print(another.default_color)
+# another.draw()
+
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+    @classmethod
+    def zero(cls):
+        return cls(0,0)    
+    def draw(self):
+        print(f"Point({self.x}, {self.y})")
+        
+point = Point(1,2)
+point.draw()
+    
+#####Class Methods########################################################################################
+point = Point.zero()
+point.draw()
