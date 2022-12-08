@@ -81,7 +81,7 @@
 # We want them to have minimal number of functions or methods exposed to the outside
 # *************
 # *** Solution A
-# Make the methdos set_price and get_price private methods
+# Make the methods set_price and get_price private methods
 # by using undersore "__set_price" and "__get_price"
 # this will add more noise
 
@@ -111,9 +111,29 @@
 # Is to use a DECORATOR. Earlier we used a decorator calles "@classmethod"
 # To convert an instance method to a class method
 
+# *** get_price
+# We have another decorator for creating a property
+# So intead of explicitly the property function
+# to create a property object - "price = property(get_price, set_price)"
+# We can apply the "property decorator" to our methods and rename the methods to the ideal name
+# For example "price" instead of "get_price"
+
+# When Python Interpreter sees the code below:
+
+# @property
+# def price(self):
+#     return self.__price
+
+# It will automatically create a property object called "price"
+
+# *** set_price
+# We also need to apply another decorator to the "set_price" method
+# The name of the decorator starts with the name of our property "price"
+# "@price.setter" and we rename the method to "price" instaed of "set_price"
+
 class Product:
     def __init__(self, price):
-        self.set_price(price)
+        self.price = price
 
     # Method for getting price
     @property
@@ -129,5 +149,17 @@ class Product:
 
 
 product = Product(10)
-product.price = -1
+product.price = 20
 print(product.price)
+
+# How this works internally is a little bit complicated, we will look into this later
+
+# For now, all you need to take away is that with these two decorators
+# "@property" and "@price.setter" you can easily create a property
+
+# *** One last thing
+# When defining properties
+# You dont have to always define a "getter" and a "setter"
+# If we comment out the "getter" part of our program
+# We will have a read-only property, so we can only read the value of the price
+# Once we set it, we cannot change it. If we try to change it, we will get an "attribute" error
