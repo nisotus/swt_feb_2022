@@ -10,25 +10,22 @@
 
 ###solution################
 class Pearson:
-    def __init__(self, name, talkmethod):
+    def __init__(self, name, word):
         self.name = name
-        self.talkmethod = talkmethod
+        self.word = word
         
-    #def draw(self):
-        #print(f"Point({self.name}, {self.talkmethod})")
+
         
-    def __str__(self):
-        return f"({self.name}, {self.talkmethod})"
+    def talk(self):
+        print(f"My name is {self.name}, {self.word}")
 
     
     
     
     
-john = Pearson("dunni", "hi my name is " "and the weather is nice today" )
-bob = Pearson("dunni", "hi my name is " "and the weather is not nice today")
-# john.talkmethod
-# john.name
-print(john.talkmethod)
+john = Pearson("dunni",  "and the weather is nice today" )
+bob = Pearson("dunni", "and the weather is not nice today")
+john.talk()
 # print(john.name)
 #print("hi, my name is ", john.name, john.talkmethod, "today")
-print(bob.talkmethod)
+bob.talk()
