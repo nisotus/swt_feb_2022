@@ -96,26 +96,56 @@
 
 # **************************
 
-class Product:
-    def __init__(self, price):
-        self.set_price(price)
+# class Product:
+#     def __init__(self, price):
+#         self.set_price(price)
         
 
-# to make price private
+# # to make price private
 
-    def get_price(self):
-        return self.__price
+#     def get_price(self):
+#         return self.__price
     
-    def set_price(self, value): 
-        if value < 0:
-            raise ValueError("Price cannot be negative")
-        self.__price = value
+#     def set_price(self, value): 
+#         if value < 0:
+#             raise ValueError("Price cannot be negative")
+#         self.__price = value
     
-    price = property(get_price, set_price)
+#     price = property(get_price, set_price)
 
 
-product1 = Product(10)
-print(product1.price)
+# product1 = Product(10)
+# print(product1.price)
+
+
+class Animal:
+    def __init__(self, age):
+        self.age = age
+        
+    def eat(self):
+        print("eat")
+        
+    
+class Mammal(Animal):
+    def walk(self):
+        print("walk")
+        
+class Fish(Animal):
+    def eat(self):
+        print("eat")
+
+
+m = Mammal(10)
+print(m.age)
+
+
+print(isinstance (m, Fish))
+
+print(issubclass(Mammal, Animal))
+
+print(issubclass(Fish, object))
+        
+    
 
 
 
