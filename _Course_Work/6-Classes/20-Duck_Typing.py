@@ -75,10 +75,20 @@ ddl = DropDownList()
 textbox = TextBox()
 
 
+# *** How is this possible
+# Here is the reason:
+# So Python does not care if these objects derive from the "UIControl" class
+# As long as these objects have a "draw" method, Python will be happy
+# So technically we can pass a STRING, LIST, TUPLE, DICTIONARY - Anything ITERABLE
 
-a = 5
-b =  "Vini"
+# In thesame token, that iterable object, it's individual parts should have a "draw" method
 
-c = a * b
 
-print(c)
+
+# *** To Recap
+# To achieve POLYMORPHISM we don't necessarily need a base class like "UIControl"
+# because Python supports DUCK TYPING
+
+# However, having the "UIControl" as an abstract base class is a good practice
+# because it enforces a common interface or a common contract across all it's derivatives
+# With this we can make sure that every kind of "UIControl" will have a "draw" method
