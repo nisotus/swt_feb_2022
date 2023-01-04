@@ -106,3 +106,5 @@ path.glob("*.*")  # To search for all files
 # print(py_files)
 
 all_files_recursively = [print(files) for files in path.rglob("**/*.*")]
+
+# The recursive search gives us all the matching files in the directory and all it's children
