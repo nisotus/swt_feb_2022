@@ -7,8 +7,8 @@
 
 # Create additinal classes of animals including: Lion, Shark, Goat, Frog, Snake, Lizard, Dog
 
-# Think about how ou can craete the subclasses by category
-# For example, we know that fishes can swim and Dogs can bark, so craete the sub classes to capture all attributes ad behaviours above
+# Think about how you can create the subclasses by category
+# For example, we know that fishes can swim and Dogs can bark, so create the sub classes to capture all attributes ad behaviours above
 
 # Make sure you don't leave any attribute or behaviour out of your implimentation.
 
